@@ -1,29 +1,27 @@
-import React from 'react'
+export const services = [  // ← exportação nomeada
+  {
+    id: 1,
+    title: 'Serviço 1',
+    description: 'Descrição detalhada do serviço 1'
+  },
+  {
+    id: 2,
+    title: 'Serviço 2',
+    description: 'Descrição detalhada do serviço 2'
+  },
+  {
+    id: 3,
+    title: 'Serviço 3',
+    description: 'Descrição detalhada do serviço 3'
+  },
+  {
+    id: 4,
+    title: 'Serviço 4',
+    description: 'Descrição detalhada do serviço 4'
+  }
+]
 
 const Services = () => {
-  const services = [
-    {
-      id: 1,
-      title: 'Serviço 1',
-      description: 'Descrição detalhada do serviço 1'
-    },
-    {
-      id: 2,
-      title: 'Serviço 2',
-      description: 'Descrição detalhada do serviço 2'
-    },
-    {
-      id: 3,
-      title: 'Serviço 3',
-      description: 'Descrição detalhada do serviço 3'
-    },
-    {
-      id: 4,
-      title: 'Serviço 4',
-      description: 'Descrição detalhada do serviço 4'
-    }
-  ]
-
   return (
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold text-primary mb-8">Nossos Serviços</h1>
