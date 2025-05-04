@@ -20,6 +20,8 @@ Este é o repositório do site institucional da **F&F Informática**, uma empres
 ```bash
 src/
 │
+├── assets/ # Arquivos de assets (imagens, etc.)
+│   ├── images/ # Imagens do site
 ├── components/ # Componentes reutilizáveis (Navbar, Footer, etc.)
 ├── pages/ # Páginas principais do site (Home, About, etc.)
 ├── data/ # Dados simulados (ex: parceiros)
