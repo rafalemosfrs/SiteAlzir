@@ -1,4 +1,4 @@
-export const services = [  // ← exportação nomeada
+export const services = [  
   {
     id: 1,
     title: 'Serviço 1',
